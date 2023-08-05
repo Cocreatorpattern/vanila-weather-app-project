@@ -26,14 +26,22 @@ li {
 li:first-letter{
 text-transform:capitalize;
 }
+.card-measures{
+  background-color:rgba(249,220,29,0.18);
+  width:150px;
+  border-radius:10px;
+  
+  
+}
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 1px solid grey;
   border-radius: 5px;
+  box-shadow: 5px 10px grey;
 }
 .overview {
   margin-bottom: 20px;
