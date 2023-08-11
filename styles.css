@@ -13,7 +13,30 @@ ul {
   margin: 0;
   padding: 0;
 }
+#temperature {
+  color: grey;
+  position: absolute;
+  display: flex;
+  left: 585px;
+  padding: 40px;
+  border: 1px solid grey;
+  box-shadow: 1px 1px grey;
+  border-radius: 150px;
+  background-color: #dfd8c8;
+  transition: all 150ms ease-in-out;
+}
+#temperature:hover {
+  background: #e1d5d2;
+}
 
+.units {
+  position: relative;
+  left: 95px;
+  top: 900px;
+  font-size: 300px;
+  font-weight: 1px;
+  color: solid grey;
+}
 li {
   list-style: none;
   margin: 0;
@@ -27,9 +50,14 @@ li:first-letter {
   text-transform: capitalize;
 }
 .card-measures {
-  background-color: rgba(249, 220, 29, 0.18);
+  background-color: #dfd8c8;
   width: 150px;
   border-radius: 10px;
+  box-shadow: 1px 2px grey;
+}
+.card-measures:hover {
+  background-color: #e1d5d2;
+  transition: all 150ms ease-in-out;
 }
 .weather-app-wrapper {
   max-width: 600px;
@@ -58,8 +86,9 @@ li:first-letter {
 }
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
-  top: -34px;
+  font-size: 45px;
+  top: -0px;
+  color: solid grey;
 }
 
 .weather-forecast {
